@@ -119,8 +119,6 @@ function bigBird(word) {
 var word = "big";
 console.log(bigBird(word));
 
-
-
 /*
  * #6
  * Function - isEqual
@@ -134,6 +132,16 @@ console.log(bigBird(word));
  * Console.log your result.
 */
 
+function isEqual(first, second) {
+  if (first === second) {
+    return "You look mahvelous";   
+  }else{
+    return "I don't know who you are anymore."
+  }
+}
+var first = "Yes";
+var second = "NO";
+console.log(isEqual(first, second));
 
 /*
  * #7
