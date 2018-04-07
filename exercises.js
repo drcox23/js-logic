@@ -70,7 +70,14 @@ console.log(login(password));
  * Console.log your result.
 */
 
-
+function isGreaterThan(first, second) {
+  if (first > second) {
+    return true;
+  }
+}
+var first = 5;
+var second = 9;
+console.log(isGreaterThan(first,second));
 
 /*
  * #4
