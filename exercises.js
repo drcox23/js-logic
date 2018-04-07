@@ -91,7 +91,13 @@ console.log(isGreaterThan(first,second));
  * Console.log your result.
 */
 
-
+function mustBeTrue(boo) {
+  if (boo === "true") {
+    return true;
+  }
+}
+var boo = "true";
+console.log(mustBeTrue(boo));
 
 /*
  * #5
