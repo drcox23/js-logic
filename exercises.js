@@ -49,6 +49,13 @@ console.log(canVote(age));
  * Console.log your result.
 */
 
+function login(password) {
+  if (password = "test1234") {
+    return "Login Success!";
+  }
+}
+var password = "test1234";
+console.log(login(password));
 
 /*
  * #3
