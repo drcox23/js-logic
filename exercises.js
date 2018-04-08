@@ -200,8 +200,19 @@ console.log(spareChange(money));
  * The function will return true if the sum of all the number values is greater than 30, otherwise it will return false.
  * Console.log your result.
 */ 
+function dirty30(one, two, three) {
+  var sum = (one + two + three)
+  if (sum > 30) {
+    return true;
+  } else {
+    return false;
+  }
+}
+var one = 3;
+var two = 8;
+var three = 20;
 
-
+console.log(dirty30(one, two, three));
 
 /*
  * #10
