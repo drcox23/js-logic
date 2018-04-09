@@ -344,7 +344,35 @@ console.log(budget);
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
+var special = "Friday";
+var menu = null;
 
+function dailySpecials(special) {
+  switch (special) {
+    case "Monday":
+      menu = "Chicken Parmesan";
+      break;
+  
+    case "Tuesday":
+    menu = "Meatloaf";
+    break;
+
+    case "Wednesday":
+    menu = "Poke Bowl";
+    break;
+
+    case "Thursday":
+    menu = "Fried Rice";
+    break;
+
+    case "Friday":
+    menu = "Prime Rib";
+    break;
+  }
+}
+
+dailySpecials(special);
+console.log(menu);
 
 
 /*
