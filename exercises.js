@@ -344,7 +344,7 @@ console.log(budget);
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
-var special = "Friday";
+var day = "Friday";
 var menu = null;
 
 function dailySpecials(special) {
@@ -368,10 +368,14 @@ function dailySpecials(special) {
     case "Friday":
     menu = "Prime Rib";
     break;
+    default:
+    menu = "NO SPECIAL";
+    // don't need a 'break' after default because it is the last case and will show if no other case is hit.
+    
   }
 }
 
-dailySpecials(special);
+dailySpecials(day);
 console.log(menu);
 
 
@@ -402,6 +406,11 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+let Players = [1, 2, 3, 4, 5];
+
+for (let i = 0; i<Players.length; i++) {
+  console.log("Player: " + Players[i]);   
+}
 
 /* 
  * #16
@@ -409,6 +418,9 @@ for (var i = 0; i<toyotaModels.length; i++){
 */
   var myFavFoods = ["lemon bar", "carrot cake", "nachos", "bacon cheeseburger", "ramen", "sweet potato fries", "chimichanga"];
 
+  for (let i=0; i<myFavFoods.length; i++) {
+    console.log(myFavFoods[i]);
+  }
 
 /*
  * #17
